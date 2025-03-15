@@ -30,7 +30,7 @@ record ZPass {
 ## Program Functions
 ### **1. `issue_master`**
 ```leo
-transition issue_master(
+transition issue(
     private sig: signature,
     private leaves_hashes: [field; 8],
     private issuer: address
